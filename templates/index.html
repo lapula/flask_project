@@ -1,0 +1,9 @@
+<h3>Persons</h3>
+    <table>
+    {%- for person in persons %}
+        <tr>
+            <td>{{ person.name }}</td>
+            <td>{{ person.password }}</td>
+        </tr>
+    {%- endfor %}
+</table>
